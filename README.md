@@ -1,1 +1,1 @@
-# HTML-and-CSS-practise
+# HTML-and-CSS-practice
