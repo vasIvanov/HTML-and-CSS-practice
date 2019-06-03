@@ -1,0 +1,29 @@
+tr:nth-child(odd){
+    background: rgb(241, 241, 241);
+}
+td tr:nth-child(odd){
+    background: rgb(241, 241, 241);
+}
+table, td, th{
+    border-width : 1px;
+    border-color : rgb(221, 221, 221);
+    border-style : solid;       
+}
+td, th{
+    width: 550px;
+}
+tr:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+table{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+th{
+    text-align: left;
+    background: rgb(225, 225, 225)
+}
