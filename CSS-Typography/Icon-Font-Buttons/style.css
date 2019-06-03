@@ -1,0 +1,22 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+a{
+    text-decoration: none;
+    border: 1px solid black;
+    color: white;
+    border-radius: 3px;
+    padding: 8px 8px 8px 8px;
+}
+.click{
+    background: rgb(2, 132, 6);
+    border-color: rgb(2, 132, 6);
+}
+.email{
+    background: rgb(246, 142, 13);
+    border-color: rgb(246, 142, 13);
+}
+p:nth-child(1){
+    margin: 80px 0px 40px 80px;
+}
+p:nth-child(2) {
+    margin-left: 80px;
+}
