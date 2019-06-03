@@ -12,4 +12,5 @@ h2{
 p, h2{
     margin: 0 auto;
     max-width: 1200px;
+    color: white;
 }
