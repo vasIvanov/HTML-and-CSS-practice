@@ -1,7 +1,5 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+html{
+    font: 16px/1.5 'Raleway', sans-serif;
 }
 h1, h2{
     font-family: 'Great Vibes', cursive;
