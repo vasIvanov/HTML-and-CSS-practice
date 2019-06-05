@@ -1,0 +1,65 @@
+/*reset.css*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*box-sizing.css*/
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+/*typography.css*/
+html{
+    font: 16px/1.2 Helvetica, sans-serif;
+}
+
+body, input, textarea, option, select, table{
+    font:inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.1;
+    padding-bottom:1rem;
+}
+
+header > h1 {
+    font-size: 2.5em;
+}
+
+main > h1 {
+    font-size: 2em;
+    font-weight: 500;
+
+}
+
+p, ul, ol, blockquote{
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 2em;
+}
+
+li ul, li ol{
+    padding-top: 0.5em;
+}
+
+blockquote{
+    padding-left: 4em;
+    font-style: italic;
+    opacity: 0.8;
+    font-family: serif;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
