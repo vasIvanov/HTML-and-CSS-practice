@@ -1,11 +1,4 @@
-html{
-    font: 16px/1.5 'PT Sans', sans-serif;
-    max-width: 1500px;
-    margin: 0 auto;
-}
-body{
-    font: inherit;
-}
+@import url('./typography.css');
 li{
     padding-left: 20px; 
 }
