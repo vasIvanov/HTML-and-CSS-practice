@@ -1,0 +1,17 @@
+html{
+    font: 16px/1.5 Helvetica, sans-serif;
+    
+}
+body, form, select, option{
+    font:inherit;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+blockquote{
+    font-style: italic;
+}
+.author{
+    text-align: right;
+    opacity: 0.6;
+}
