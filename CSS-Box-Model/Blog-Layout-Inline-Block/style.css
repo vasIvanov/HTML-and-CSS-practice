@@ -1,0 +1,27 @@
+@import url('./typography.css');
+
+body{
+    max-width: 80rem;
+    margin: 2em 0 0 0.5em;
+}
+
+.image {
+    width: 85%;
+    height: auto;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    width: 20rem;
+    display: inline-block;
+}
+
+aside ul {
+    list-style-position: inside;
+}
