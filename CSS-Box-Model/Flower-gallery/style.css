@@ -1,0 +1,77 @@
+@import url('./typography.css');
+
+body{
+    max-width: 115rem;
+    margin: 0 auto;
+}
+
+header {
+    background: #F2F5FA;
+    height: 5em;
+}
+
+header p {
+    font-size: 2.3em;
+    color: #FF7E4F;
+    display: inline-block;
+    padding-left: 0.5em;
+    margin-right: 29.5em;
+}
+
+header nav {
+    display: inline-block;   
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+nav li a {
+    background: #FF7E4F;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.3em 0.8em 0.3em 0.8em;
+    border-radius: 0.4rem;
+
+
+}
+
+nav li:not(:last-child) {
+    margin-right: 0.5rem;
+}
+
+nav li a:before {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f015';
+    display: inline-block;
+    font-weight: 900;
+    margin-right: 0.5em;
+}
+
+nav li:nth-child(3) a:before {
+    content: '\f3e0';
+}
+
+nav li:nth-child(4) a:before {
+    content: '\f781';
+}
+
+nav li:nth-child(5) a:before {
+    content: '\f56c';
+}
+
+.main-image {
+    background: linear-gradient(#fff, #ff10) url('./images/maarten-deckers-227224-unsplash.jpg') center;
+    padding: 27rem;
+    background-size: cover;
+
+}
+
+.main-image h1 {
+    color: #fff;
+    text-shadow: 1.5px 1px black;
+}
+
+.main-image p {
+    color: #fff;
+}

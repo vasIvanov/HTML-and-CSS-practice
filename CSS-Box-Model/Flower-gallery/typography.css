@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,700|Open+Sans|Pacifico&display=swap');
+/*reset.css*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*box-sizing.css*/
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+/*typography.css*/
+html{
+    font: 16px/1.5 'Open Sans', sans-serif;
+}
+
+body, input, textarea, option, select, table{
+    font:inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Noto Serif', serif;
+    line-height: 1.1;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2.1em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.45em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
+
+p, ul, ol, blockquote{
+    padding-bottom: 1.5em;
+}
+
+ul, ol {
+    padding-left: 2em;
+}
+
+li ul, li ol{
+    padding-top: 0.5em;
+}
+
+blockquote{
+    padding-left: 4em;
+    font-style: italic;
+    opacity: 0.8;
+    font-family: serif;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+header p {
+    font-family: 'Pacifico', cursive;
+}
