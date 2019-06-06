@@ -61,7 +61,7 @@ nav li:nth-child(5) a:before {
 }
 
 .main-image {
-    background: linear-gradient(#fff, #ff10) url('./images/maarten-deckers-227224-unsplash.jpg') center;
+    background: linear-gradient(rgba(0, 0, 0 , 0.1), rgba(0, 0, 0, 0.3)), url('./images/maarten-deckers-227224-unsplash.jpg') center;
     padding: 27rem;
     background-size: cover;
 
