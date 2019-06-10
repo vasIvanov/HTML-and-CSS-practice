@@ -70,7 +70,7 @@ nav li:nth-child(5) a:before {
 
 .main-image {
     background: linear-gradient(rgba(0, 0, 0 , 0.1), rgba(0, 0, 0, 0.2)), url('./images/maarten-deckers-227224-unsplash.jpg') center;
-    padding: 27rem;
+    padding: 23rem;
     background-size: cover;
 
 }
@@ -81,5 +81,26 @@ nav li:nth-child(5) a:before {
 }
 
 .main-image p {
+    color: #fff;
+    text-align: center;
+}
+.flowers-details {
+    background: #FF7E4F;
+    color: #fff;
+    text-align: center;
+    padding: 0 22em 1em 22em;
+}
+
+.flowers-details button {
+    margin: 1.6em 0;
+    padding: 0.5em 0.7em;
+    border-radius: 0.5em;
+    background: #fff;
+    color: #FF7E4F;
+    font-weight: 700;
+}
+
+.flowers-details button:hover {
+    background: #FF7E4F;
     color: #fff;
 }
