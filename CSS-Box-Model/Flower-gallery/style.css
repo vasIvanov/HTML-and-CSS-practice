@@ -1,7 +1,7 @@
 @import url('./typography.css');
 
 body {
-    background: linear-gradient(#D7E1D4, #C0BEC9);
+    background: linear-gradient(#fff, #ffd);
 }
 
 .content{
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: #F2F5FA;
+    background: #F4F4F4;
     height: 5em;
     width: auto;
 }
@@ -104,3 +104,39 @@ nav li:nth-child(5) a:before {
     background: #FF7E4F;
     color: #fff;
 }
+
+.work-process {
+    width: 96rem;
+    height: auto;
+}
+
+.work-process h2 {
+    margin-top: 1em;
+}
+
+.work-process ul {
+   list-style-type: none;
+   text-align: center;
+}
+
+
+.work-process ul li{
+    vertical-align: top;
+    display: inline-block;
+    width: 18rem;
+    height: auto;
+}
+
+.work-process ul li:not(:last-child) {
+    margin-right:5em;
+}
+
+.work-process ul li p {
+    text-align: center;
+}
+
+.work-process img {
+    width: 50%;
+    height: auto;
+}
+
