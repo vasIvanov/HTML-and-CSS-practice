@@ -106,7 +106,7 @@ nav li:nth-child(5) a:before {
 }
 
 .work-process {
-    width: 96rem;
+    max-width: 96rem;
     height: auto;
 }
 
@@ -139,4 +139,80 @@ nav li:nth-child(5) a:before {
     width: 50%;
     height: auto;
 }
+
+.gallery {
+    max-width: 96rem;
+    margin: 0 auto;
+    text-align: center;
+    background: #FFF0EE;
+}
+
+.gallery h2{
+    padding-top: 1em;
+    margin-bottom: 2em;
+}
+
+.gallery ul {
+    list-style-type: none;
+}
+
+.gallery ul li {
+    width: 25rem;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5em;
+}
+
+.gallery ul li:not(:last-child) {
+    margin-right: 2em;
+
+}
+
+
+.gallery ul li img {
+    width: 100%;
+    height: auto;
+    padding: 0.5em;
+    border: 5px solid #111;
+    background: #fff;
+}
+
+
+footer {
+    background: #FF7E4F;
+    margin-bottom: 2em;
+    border-radius: 2px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 1em; 
+    padding-bottom: 1em;
+}
+
+footer p {
+    margin-right: 5.5em;
+    color: #fff;
+    display: inline-block;
+}
+
+footer ul li {
+    color: #fff;
+    display: inline-block;
+}
+
+footer ul li a{
+    
+    background: #FF7E4F;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.2em 0.7em 0.2em 0.7em;
+    border: 0.7px solid #fff;
+    border-radius: 20px;
+    margin-right: 0.8em;
+}
+
 
