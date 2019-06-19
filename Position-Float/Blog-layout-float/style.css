@@ -12,11 +12,11 @@ main {
     float:left;
 }
 
-/* .cleaner:after {
+.cleaner:after {
     display: block;
     content: '';
     clear: both;
-} */
+}
 
 article{
     margin-bottom: 5em;
@@ -66,3 +66,7 @@ blockquote {
     margin-right: 1em;
 }
 
+footer {
+    padding-top: 1em;
+    border-top: 1px solid #000;
+}
