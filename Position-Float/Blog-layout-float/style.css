@@ -1,0 +1,68 @@
+@import url('../Article-with-quotes-media/typography.css');
+@import url('./navigation.css');
+
+body {
+    max-width: 80rem;
+    margin: 0 auto;
+    background: rgb(238, 238, 238);
+}
+
+main {
+    width: 70%;
+    float:left;
+}
+
+/* .cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+} */
+
+article{
+    margin-bottom: 5em;
+}
+
+
+
+.site-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.3em;
+    padding-top: 1.4em;
+}
+
+.media {
+    border: 3px solid #000;
+    padding: 0.4em 0.4em 0 0.4em;
+    margin: 1em;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.right-media {
+    float: right;
+    
+}
+
+/* .side-to-quote {
+    width: 55%;
+    float: right;
+    padding-right: 1.5em;
+} */
+
+blockquote {
+    width: 45%;
+    height: auto;
+    float: right;
+    border-left: 2px solid rgba(179, 174, 174, 0.336);
+    font-family: Georgia, serif;
+}
+
+.left-media {
+    float: left;
+    margin: 0;
+    margin-right: 1em;
+}
+

@@ -1,0 +1,23 @@
+
+nav ul {
+    padding: 0.3rem;
+    margin: 0;
+}
+
+
+nav ul li {
+    list-style: inside;
+    margin-left:1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(18, 116, 24);
+}
+
+aside {
+    width: 20%;
+    float: left;
+    margin: 1em 4em;
+
+}
