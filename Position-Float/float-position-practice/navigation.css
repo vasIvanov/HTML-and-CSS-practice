@@ -1,0 +1,45 @@
+nav ul {
+    padding: 0.3rem;
+    margin: 0;
+    background: #000;
+}
+
+nav ul li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+}
+
+nav > ul > li {
+    padding: 0.5rem;
+    float: left;
+}
+
+nav > ul > li > ul > li ul {
+    top:0; left:100%;
+}
+
+nav li ul {
+    display: none;
+    position: absolute;
+    top: 100%; left: 0;
+    z-index: 200;
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+nav ul li  a{
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem 1em;
+    line-height: 1;
+    border-radius: 0.3em;
+}
+
+nav li:hover > a,
+nav ul li a:hover{
+    background: red;
+}

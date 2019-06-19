@@ -1,0 +1,51 @@
+@import url('./typography.css');
+@import url('./navigation.css');
+@import url('./layout.css');
+
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+
+
+.media {
+    background: #666;
+    width: 100%;
+    position: relative;
+    margin: 1rem auto;
+    border-radius: 0.5em;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #FFF;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.7);
+}
+
+.media.ar-16x9:before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.media:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right:0; bottom:0;
+    background: rgba(0, 0, 0, 0.4);
+    transition: opacity 0.3s ease-in;
+}
+
+.media:hover:after {
+    opacity: 0;
+}
+
+.media img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
