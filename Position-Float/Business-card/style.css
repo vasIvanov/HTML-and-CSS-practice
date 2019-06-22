@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 2rem;
+    position: relative;
+    width: 100%;
+    height: 460px;
+    background-image: linear-gradient(to bottom, #051937, #003c5e, #005f67, #00804d, #72991a);
+}
+
+.profile {
+    width: 190px;
+    height: 190x;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    transform: rotate(-16deg);
+}
+
+.color-boxes {
+    width: 20%;
+    float: left;
+    height: 4px;
+}
+
+.top-color {
+    padding-top: 1.3em;
+}
+
+.with-content {
+    padding-top: 2.3rem;
+    width: 100%;
+    margin-top:14em;
+}
+
+.with-content .color-boxes{
+    height: auto;
+    text-align: center;
+    padding: 0.7rem;
+    font-weight: bold;
+
+}
+
+.with-content .yellow img{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    bottom: 5%;
+    left: 2.5%;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.greenyellow {
+    background: greenyellow;
+}
+
+.green {
+    background: green;
+}
+
+.orange {
+    background: orange;
+}
+
+.red {
+    background: red;
+}
+
+.bottom-color {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.info {
+    float: right;
+    margin-top: 4em;
+    margin-right: 4em;
+    text-align: right;
+}
+
+.info p {
+    padding-bottom: 0.7em;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.info p:nth-child(2) {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 30px;
+}
