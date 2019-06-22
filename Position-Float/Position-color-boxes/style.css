@@ -1,0 +1,53 @@
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 500px;
+    background: aquamarine;
+    position: relative;
+}
+
+.big-box {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+}
+
+.tr {
+    top: 0;
+    right: 0;
+}
+
+.bl {
+    bottom: 0;
+    left: 0;
+}
+
+.br {
+    bottom: 0;
+    right: 0;
+}
+
+.cc {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.small-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: red;
+    width: 50px;
+    height: 50px;
+}
+
+.inner {
+    width: 15px;
+    height: 15px;
+    background: blue;
+}
+
+
