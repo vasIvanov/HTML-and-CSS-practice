@@ -1,0 +1,50 @@
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    height: 55vh;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 2rem;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+}
+
+header {
+    flex: 0 0 100%;
+    padding: 10px 0 60px 10px;
+    border: 1px solid #333; 
+    border-radius: 5px;
+}
+
+main {
+    flex: 0 0 69%;
+    padding: 10px 0 200px 10px;
+    border: 1px solid #333; 
+    border-radius: 5px;
+}
+
+aside {
+    flex: 0 0 30%;
+    padding: 10px 0 200px 10px;
+    border: 1px solid #333; 
+    border-radius: 5px;
+}
+
+footer {
+    flex: 0 0 100%;
+    padding: 10px 0 60px 10px;
+    border: 1px solid #333; 
+    border-radius: 5px; 
+}
+
+
+
