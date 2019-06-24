@@ -9,14 +9,16 @@ html {
 }
 
 body {
-    max-width: 80rem;
-    margin: 5em auto;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
 }
 
 header{
     border-bottom: 2px solid #000;
-    display: flex;
     margin-bottom: 1em;
+    display: flex;
+    padding-top: 0.5em;
 }
 
 header p {
@@ -24,9 +26,12 @@ header p {
     font-size: 42px;
     font-weight: bold;
     margin-right: auto;
+    flex: 0 0 30%;
+    margin-right: auto;
 }
 
 header ul {
+    flex: 0 0 auto;
     display: flex;
 }
 
@@ -43,4 +48,14 @@ header a {
 
 h1, p {
     padding-bottom: 0.6em;
+}
+
+main {
+    padding: 2em 0.5em;
+}
+
+footer {
+    padding: 0.7em;
+    color: #000;
+    background: rgb(158, 155, 155);
 }
