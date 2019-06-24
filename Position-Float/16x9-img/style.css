@@ -1,0 +1,21 @@
+.media {
+    position: relative;
+    width: 100%;
+
+}
+
+.media:before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.media img {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
