@@ -1,0 +1,49 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 80rem;
+    margin: 5rem auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    box-shadow: 2px -1px 41px -1px rgba(0,0,0,0.45);
+    margin-bottom: 4.5%;
+    flex: 0 0 29%;
+    background: #fff;
+    border: 9px solid black;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+li::before {
+    display: block;
+    content: '';
+    padding-top: 177.77%;
+}
+
+li img {
+    padding: 1rem 1rem;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
