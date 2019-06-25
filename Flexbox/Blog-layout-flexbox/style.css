@@ -53,25 +53,20 @@ article {
 }
 
 body > div > main > article:nth-child(1) {
-    justify-content: space-between
-}
-
-body > div > main > article:nth-child(1) h1 {
-    
+    justify-content: space-between;
 }
 
 body > div > main > article:nth-child(1) > p:nth-child(2) {
     flex: 0 0 75%;
 }
 
-body > div > main > article:nth-child(1) > p:nth-child(4) {
-    flex: 1 0 75%;
+body > div > main > article:nth-child(1) > p:nth-child(3) {
+    align-content: flex-start;
+    flex: 0 0 75%;
 }
 
-
-article .media {
-    flex: 0 0 20%;
-    
+.media {
+    margin-bottom: 1%;
 }
 
 .media img {
