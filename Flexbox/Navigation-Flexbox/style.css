@@ -52,6 +52,8 @@ h1, p {
 
 main {
     padding: 2em 0.5em;
+    flex-grow: 1;
+    background: #ccc;
 }
 
 footer {
