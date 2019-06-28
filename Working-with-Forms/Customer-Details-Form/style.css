@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 60rem;
+    margin: 2em auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: none;
+    background: rgb(173, 216, 230);
+    padding: 6em 6em 2em 2em;
+    display: flex;
+    position: relative;
+}
+
+legend {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2rem;
+}
+
+.info, .area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em;
+}
+
+.info label, span {
+    flex: 0 0 25%;
+}
+
+.info input, select, textarea {
+    padding: 0.3em;
+    flex: 0 0 70%;
+}
+
+.area {
+    align-items: flex-start;
+}
+
+.gender {
+    margin: 0.5em;
+    display: flex;
+}
+
+.gender label {
+    flex: 0 0 29%;
+}
+
+.gender input {
+    flex: 0 0 5%
+}
+
+.gender .male-label {
+    flex: 0 0 15%;
+}
+
+.tos {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.submit {
+    padding: 0.8em 2.5em;
+    border-radius: 3px;
+    border: none;
+    background: #369;
+    color: white;
+    margin: 0 auto;
+}
+
