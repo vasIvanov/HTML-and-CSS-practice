@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.2 'Montserrat', sans-serif;
+}
+
+form {
+    font: inherit;
+}
+
+
+.container {
+    padding: 10em;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right top, #04d8df, #00ccff, #00b5ff, #6d8aff, #fa02ff);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 55%;
+    justify-content: center;
+}
+
+fieldset {
+    padding: 2em;
+    border: none;
+    background: white;
+    border-radius: 4px
+}
+
+.sign-in{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 1em;
+    font-size: 24px;
+}
+
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+.social-container a {
+    flex: 0 0 47%;
+}
+
+.social-button {
+    padding: 0.7em;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.social-button i {
+    margin-right: 0.5rem
+}
+
+
+.social-button.fb{
+    background: #369;
+    color: white;
+    
+}
+
+.social-button.gl {
+    color: #555555;
+    border: 0.5px solid #9b9898b6;
+}
+
+.social-button:hover {
+    background-image: linear-gradient(to right top, #04d8df, #00ccff, #00b5ff, #6d8aff, #fa02ff);
+}
+
+.username-field,
+.password-field {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.username-field label,
+.username-field input,
+.password-field label,
+.password-field input {
+    flex: 0 0 100%;
+    color: rgb(129, 121, 121);
+}
+
+.username-field input,
+.password-field input {
+    outline: none;
+    margin-bottom: 1em;
+    padding: 0.6em;
+    background: rgba(241, 241, 241, 0.788);
+    border: none;
+    border-radius: 4px;
+} 
+
+.username-field input:focus,
+.password-field input:focus {
+    border: 1px solid #fa02ff;
+}
+
+.submit {
+    display: flex;
+    flex: 0 0 100%;
+    padding: 0.3em;
+    background: #333333;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    justify-content: center;
+}
