@@ -1,0 +1,25 @@
+:after{
+    color: green;
+}
+
+@media (min-width: 600px) {
+
+    .width::after {
+        content: 'Viewport width is larger than 600px';
+    }    
+}
+
+@media (min-height: 600px) {
+
+    .height::after {
+        content: 'Viewport height is larger than 600px';
+    }
+}
+
+
+@media (min-aspect-ratio: 8/5) {
+    
+    .aspect::after{
+        content: 'Aspect Ratio is larger than 8/5';
+    }
+}
