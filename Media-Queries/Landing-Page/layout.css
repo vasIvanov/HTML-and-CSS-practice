@@ -1,0 +1,123 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none outside;
+}
+
+.site-header {
+    padding-top: 2em; 
+}
+
+.site-header .wrapper {
+    max-width: initial;
+    display: flex;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.site-header nav {
+    margin-left: auto;
+}
+
+.site-branding .site-title {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    letter-spacing: -0.04em;
+}
+
+.site-branding .site-title a {
+    color: purple;
+    text-decoration: none;
+}
+
+.site-branding .site-description {
+    padding-left: 0.2em;
+    text-transform: uppercase;
+    margin-top: -0.5em;
+    letter-spacing: -0.05em;
+    opacity: 0.6;
+}
+
+.section-content .users-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.section-content .users-list li {
+    flex: 0 0 30%;
+    margin-bottom: 2em;
+}
+
+@media (max-width: 900px) {
+
+    .section-content .users-list li {
+        flex: 0 0 48%;
+    }
+}
+
+.users-list span {
+    display: block;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.users-list .user-name + .user-position {
+    margin-top: 0;
+}
+
+.section-newsletter .field {
+    display: flex;
+    justify-content: center;
+}
+
+.section-newsletter .field input:not(:last-child) {
+    margin-right: 0.5em;
+    flex: 0 0 28%;
+}
+
+
+.site-footer {
+    margin-top: 1em;
+    padding: 2em;
+}
+
+.site-footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget {
+    flex: 0 0 30%;
+}
+
+.widget header {
+    padding: 0;
+    margin: 0;
+}
+
+.widget-sitemap .widget-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.widget-content ul li {
+    flex: 0 0 50%;
+}
+
+.widget-contacts .widget-content ul {
+    padding: 0;
+    margin: 0;
+}
