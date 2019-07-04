@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 'Courgette', cursive;
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.wrapper {
+    background: #F5F5F5;
+    max-width: 63rem;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-title {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.site-title p {
+    line-height: 1.2;
+    letter-spacing: 0.1em;
+}
+
+.site-title .main-title {
+    font-size: 36px;
+}
+
+.site-title .subtitle {
+    font-size: 20px;
+    margin-left: 9em;
+    color: #CB2027;
+    font-weight: 600;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 32%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-media {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-media:before {
+    display: block;
+    content: '';
+    padding-top: 56.25%;
+}
+
+.card-media img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    padding: 0 1em;
+}
+
+.card-title {
+    padding: 0.4em;
+    text-align: center;
+    border-bottom: 1px solid #CB2027;
+}
+
+.card-details {
+    text-align: center;
+    padding: 0.5em 0 2em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.card-content {
+    flex-grow: 1;
+    padding:  0 1em;
+}
+
+i {
+    display: block;
+    margin-left: 0.5em;
+    background: #fff;
+    color: #CB2027;
+    border-radius: 50%;
+}
