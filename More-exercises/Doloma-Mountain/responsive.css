@@ -1,0 +1,48 @@
+@media (max-width: 1100px) {
+
+    .team-description-wrapper ul {
+        flex-wrap: wrap;
+    }
+
+    .team-description-wrapper li  {
+        flex: 0 0 50%;
+        margin-bottom: 2em;
+    }
+
+    .blog-list {
+        flex-wrap: wrap;
+    }
+
+    .blog-list li {
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 800px) {
+
+    header nav {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        padding: 0.3em;
+    }
+
+    body > header > nav > ul > li:nth-child(1) {
+        margin-top: 1em;
+    }
+    
+    .choose-us ul {
+        display: block;
+    }
+
+    .choose-us ul li {
+        padding: 0 10em;
+    }
+
+    .header-title {
+        padding: 0
+    }
+}
