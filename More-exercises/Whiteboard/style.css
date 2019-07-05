@@ -90,6 +90,7 @@ html {
 }
 
 
+
 .before-arrow:before {
     display: inline-block;
     font-weight: 900;
@@ -109,6 +110,12 @@ html {
     background: #00D08E;
     text-shadow: none;
     border-radius: 4px;
+    font-weight: 900;
+}
+
+.header-content .buy-button:hover {
+    border: 3px solid #fff;
+    background: none;
 }
 
 
