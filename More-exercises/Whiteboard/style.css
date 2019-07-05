@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: 18px/1.5 'PT sans', sans-serif;
+}
+
+.site {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.site-header {
+    background: linear-gradient(to top, rgba(0, 0, 0 , 0.2), rgba(0, 0, 0, 0.4)), url('./images/computer-main.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 2em 0 4em 0;
+    color: #fff;
+    text-shadow: -1px 3px 3px rgba(0,0,0,0.79);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top-section {
+    display: flex;
+    padding: 0 16em 4em 16em;
+    font-weight: 800;
+    flex: 0 0 100%;
+}
+
+.brand {
+    margin-right: auto;
+}
+
+.brand:before {
+    display: inline-block;
+    content: '\f47e';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    margin-right: 0.3em;
+}
+
+.cart a{
+    text-decoration: none;
+    color: #fff
+}
+
+.cart:before {
+    margin-right: 0.4em; 
+    display: inline-block;
+    content: '\f07a';
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    color: #fff;
+}
+
+.header-content {
+    flex: 0 0 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.header-content h1 {
+    font-size: 56px;
+    flex: 0 0 100%;
+}
+
+.header-content p{
+    flex: 0 0 35%;
+    padding: 1.5em 0 4em 0;
+    font-size: 1.17rem;
+}
+
+.basic-button {
+    flex: 0 0 100%;
+    margin-bottom: 3em;
+}
+
+.action-button {
+    flex: 0 0 100%;
+    margin-bottom: 1em;
+}
+
+
+.before-arrow:before {
+    display: inline-block;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    margin-left: 0.5em; 
+    content: '\f0a9';
+}
+
+.header-content a {
+    flex: 0 0 100%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-content .buy-button {
+    padding: 0.5em 1.3em;
+    background: #00D08E;
+    text-shadow: none;
+    border-radius: 4px;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.media {
+    flex: 0 0 50%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.media:after {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+}
+
+.media img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.product-details {
+    flex: 0 0 50%;
+    padding: 1em 4em 3em 3em;
+}
+
+.product-details h3 {
+    flex: 0 0 100%;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.product-details p {
+    font-size: 21px;
+    padding-bottom: 1.5em;
+}
+
+.product-details ul {
+
+}
+
+.product-details li {
+    list-style: none outside;
+    padding-bottom: 1em; 
+}
+
+.product-details li:before {
+    content: '\f058';
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    background: #fff;
+    color: #00D08E;
+    padding: 0 1em 0 0.5em;
+} 
+
+li > img {
+    width: 80px;
+    height: 80px;
+}
+
+.product-usage {
+    flex: 0 0 50%;
+}
+
+.product-usage h3 {
+    font-size: 33px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.product-usage ul {
+    padding: 3em 4em 0 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-usage ul li {
+    margin-bottom: 2em;
+    list-style: none outside;
+    flex: 0 0 31%;
+    text-align: center;
+}
+
+.product-usage ul li p {
+    font-weight: 900;
+    color: #00D08E;
+}
+
+
+.site-footer {
+    background: #B2F1DD;
+    padding: 0 3em;
+}
+
+.site-footer h3 {
+    font-size: 33px;
+    text-align: center;
+    padding: 1em 0 1.5em 0;
+}
+
+.site-footer .questions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-footer .question {
+    flex: 0 0 28%;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.site-footer .question h4 {
+    font-size: 21px;
+}
+
+.final-msg {
+    padding: 1em 0;
+    text-align: center;
+}
+
+.final-msg a {
+    font-weight: 900;
+    text-decoration: none;
+    color: #000;
+}
