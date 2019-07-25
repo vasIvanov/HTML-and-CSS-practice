@@ -1,0 +1,16 @@
+body {
+    margin: 5em;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns:  repeat(3, 100px);
+    grid-gap: 0.5em;
+}
+
+.box {
+    background: #444;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
