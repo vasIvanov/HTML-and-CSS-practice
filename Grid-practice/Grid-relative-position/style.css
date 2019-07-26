@@ -1,0 +1,52 @@
+body {
+    margin: 5em;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 150px 320px;
+}
+
+.box {
+    padding: 50px;
+    background: #444;
+    color: white;
+
+}
+
+.header {
+    grid-column: 1 / -1;
+}
+
+.footer {
+    grid-column: 1 / -1;
+}
+
+.content {
+    position: relative;
+}
+
+.content img {
+    position: absolute;
+}
+
+.topleft {
+    top: 0;
+    left: 0;
+}
+
+.topright {
+    top: 0;
+    right: 0;
+}
+
+.bottomleft {
+    bottom: 0;
+    left: 0;
+}
+
+.bottomright {
+    bottom: 0;
+    right: 0;
+}
