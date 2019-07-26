@@ -1,0 +1,29 @@
+body {
+    margin: 5em;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(2, 15em);
+}
+
+.box {
+    padding: 20px;
+    background: #444;
+    color: white;
+}
+
+.d {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns:  repeat(2, 1fr);
+}
+
+.e, .f, .g {
+    background: #aaa;
+}
+
+.e {
+    grid-column: 1 / -1;
+}
